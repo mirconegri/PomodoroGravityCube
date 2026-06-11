@@ -73,12 +73,11 @@ The MPU6050 reads the gravity vector and automatically adjusts the screen rotati
 
 | State / Face | Action & LED Feedback | UI Screenshot |
 | :--- | :--- | :---: |
-| **Timer Active** | Face 1/2/3/4 pointing up. Sets 5, 15, 25, or 45 mins. <br>🟢 **LED:** Green | *![Timer UI](assets/verde.png)* |
-| **Warning (30s left)**| Timer is almost up. <br>🟡 **LED:** Blinking Yellow | *![Warning UI](assets/giallo.png)* |
-| **Time's Up** | Countdown reaches `00:00`. <br>🔴 **LED:** Blinking Red | *![Finished UI](assets/rosso.png)* |
-| **Pause** | Screen facing directly UP (Z-axis). <br>🔵 **LED:** Blue | *![Pause UI](assets/blu.png)* |
-| **Idle / Setup** | Cube hasn't been flipped yet. <br>⚫ **LED:** Off | *![Idle UI](assets/spento.png)* |
-
+| **🎲⬆️ Timer Active** | Face 1/2/3/4 pointing up. Sets 5, 15, 25, or 45 mins. <br>🟢 **LED:** Green | *![Timer UI](assets/verde.png)* |
+| **🎲⚠️ Warning (30s left)** | Timer is almost up. <br>🟡 **LED:** Blinking Yellow | *![Warning UI](assets/giallo.png)* |
+| **🎲🔔 Time's Up** | Countdown reaches `00:00`. <br>🔴 **LED:** Blinking Red | *![Finished UI](assets/rosso.png)* |
+| **🎲⬇️ Pause** | Screen facing directly UP (Z-axis). <br>🔵 **LED:** Blue | *![Pause UI](assets/blu.png)* |
+| **🎲 Idle / Setup** | Cube hasn't been flipped yet. <br>⚫ **LED:** Off | *![Idle UI](assets/spento.png)* |
 
 ---
 
