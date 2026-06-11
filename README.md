@@ -22,6 +22,22 @@ The core of the project is a 3D-printed inner chassis housed inside a handcrafte
 
 ---
 
+## 📂 Struttura della Repository
+Plaintext
+
+Cubo-Timer-Pomodoro/
+├── README.md                  # La presentazione del progetto (stile portfolio)
+├── LICENSE                    # Licenza MIT
+├── src/
+│   └── cubo_pomodoro.ino      # Il codice C++ ottimizzato per Arduino
+├── docs/
+│   └── schematic.tex          # Il codice LaTeX per rigenerare lo schema elettrico
+└── assets/
+    ├── hero-preview.gif       # (Da aggiungere) GIF del cubo che viene ruotato
+    └── wiring-diagram.png     # (Da aggiungere) Immagine dello schema su Tinkercad/Wokwi
+
+---
+
 ## 📐 Design & Prototyping
 
 Below are the 3D CAD designs for the internal structure and the outer wooden shell, along with the breadboard wiring diagrams used during the prototyping phase.
