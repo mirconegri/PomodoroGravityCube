@@ -43,9 +43,15 @@ Cubo-Timer-Pomodoro/
 ├── src/
 │   └── cubo_pomodoro.ino      
 └── assets/
-    ├── hero-preview.gif       
-    └── wiring-diagram.png     
-
+    ├── back.png
+    ├── blu.png
+    ├── front.png
+    ├── giallo.png
+    ├── rosso.png
+    ├── side.png
+    ├── spento.png
+    ├── up.png
+    └── verde.png
 
 ```
 ---
