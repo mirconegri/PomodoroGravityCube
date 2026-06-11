@@ -25,6 +25,8 @@ The core of the project is a 3D-printed inner chassis housed inside a handcrafte
 ## 📂 Struttura della Repository
 Plaintext
 
+
+```
 Cubo-Timer-Pomodoro/
 ├── README.md                  # La presentazione del progetto (stile portfolio)
 ├── LICENSE                    # Licenza MIT
@@ -36,6 +38,8 @@ Cubo-Timer-Pomodoro/
     ├── hero-preview.gif       # (Da aggiungere) GIF del cubo che viene ruotato
     └── wiring-diagram.png     # (Da aggiungere) Immagine dello schema su Tinkercad/Wokwi
 
+
+```
 ---
 
 ## 📐 Design & Prototyping
@@ -76,5 +80,3 @@ The MPU6050 reads the gravity vector and automatically adjusts the screen rotati
 ### 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-
-
