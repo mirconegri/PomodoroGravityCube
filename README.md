@@ -28,15 +28,13 @@ Plaintext
 
 ```
 Cubo-Timer-Pomodoro/
-├── README.md                  # La presentazione del progetto (stile portfolio)
-├── LICENSE                    # Licenza MIT
+├── README.md                 
+├── LICENSE                   
 ├── src/
-│   └── cubo_pomodoro.ino      # Il codice C++ ottimizzato per Arduino
-├── docs/
-│   └── schematic.tex          # Il codice LaTeX per rigenerare lo schema elettrico
+│   └── cubo_pomodoro.ino      
 └── assets/
-    ├── hero-preview.gif       # (Da aggiungere) GIF del cubo che viene ruotato
-    └── wiring-diagram.png     # (Da aggiungere) Immagine dello schema su Tinkercad/Wokwi
+    ├── hero-preview.gif       
+    └── wiring-diagram.png     
 
 
 ```
