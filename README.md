@@ -8,6 +8,16 @@ A fully custom, 100% Arduino-based physical Pomodoro timer controlled entirely b
 
 ---
 
+## 🚀 Live Simulation
+
+Don't have the hardware yet? You can test the exact code and logic of the Pomodoro Cube directly in your browser using my Wokwi interactive simulation:
+
+👉 **[Run the Virtual Prototype on Wokwi](https://wokwi.com/projects/466522637641408513)**
+
+*(Tip: In the simulation, click the switch to turn it on, then click on the blue MPU6050 sensor to change the X/Y/Z axis and watch the screen and LED react!)*
+
+---
+
 ## 🛠️ Hardware Components
 
 The core of the project is a 3D-printed inner chassis housed inside a handcrafted wooden shell. Here is the electronics list:
