@@ -20,7 +20,7 @@ Don't have the hardware yet? You can test the exact code and logic of the Pomodo
 
 ## 🛠️ Hardware Components
 
-The core of the project is a 3D-printed inner chassis housed inside a handcrafted wooden shell. Here is the electronics list:
+The core of the project is a inner chassis housed inside a handcrafted wooden shell. Here is the electronics list:
 
 * **Microcontroller:** Arduino Nano / Pro Micro
 * **Motion Sensor:** MPU6050 (6-axis Accelerometer & Gyroscope)
@@ -33,7 +33,6 @@ The core of the project is a 3D-printed inner chassis housed inside a handcrafte
 ---
 
 ## 📂 Struttura della Repository
-Plaintext
 
 
 ```
@@ -89,4 +88,4 @@ The MPU6050 reads the gravity vector and automatically adjusts the screen rotati
 
 ### 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
