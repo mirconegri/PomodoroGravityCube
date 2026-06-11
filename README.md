@@ -56,9 +56,9 @@ Below are the 3D CAD designs for the internal structure and the outer wooden she
 
 | 3D Model Overview | Panels & Exploded View |
 | :---: | :---: |
-| <img src="assets/Immagine 2026-06-11 144348.jpg" alt="3D Overview" width="400"/> | <img src="assets/Immagine 2026-06-11 144143.jpg" alt="Exploded View" width="400"/> |
+| <img src="assets/side.jpg" alt="3D Overview" width="400"/> | <img src="assets/front.jpg" alt="Exploded View" width="400"/> |
 | **Inner Core Details** | **Top-Down Layout** |
-| <img src="assets/Immagine 2026-06-11 144232.jpg" alt="Inner Core" width="400"/> | <img src="assets/Immagine 2026-06-11 144323.jpg" alt="Top View" width="400"/> |
+| <img src="assets/back.jpg" alt="Inner Core" width="400"/> | <img src="assets/up.jpg" alt="Top View" width="400"/> |
 | **Final Wiring Diagram** | **Wiring with Switch** |
 | <img src="assets/Immagine 2026-06-11 144643.png" alt="Wiring Final" width="400"/> | <img src="assets/Immagine 2026-06-11 143803.png" alt="Wiring Switch" width="400"/> |
 
@@ -70,13 +70,11 @@ The MPU6050 reads the gravity vector and automatically adjusts the screen rotati
 
 | State / Face | Action & LED Feedback | UI Screenshot |
 | :--- | :--- | :---: |
-| **Timer Active** | Face 1/2/3/4 pointing up. Sets 5, 15, 25, or 45 mins. <br>🟢 **LED:** Green | *![Timer UI](assets/timer-active.jpg)* |
-| **Warning (30s left)**| Timer is almost up. <br>🟡 **LED:** Blinking Yellow | *![Warning UI](assets/timer-warning.jpg)* |
-| **Time's Up** | Countdown reaches `00:00`. <br>🔴 **LED:** Blinking Red | *![Finished UI](assets/timer-finished.jpg)* |
-| **Pause** | Screen facing directly UP (Z-axis). <br>🔵 **LED:** Blue | *![Pause UI](assets/timer-pause.jpg)* |
-| **Idle / Setup** | Cube hasn't been flipped yet. <br>⚫ **LED:** Off | *![Idle UI](assets/timer-idle.jpg)* |
-
-*(Note: Add real photos/screenshots of the cube screen to the `assets/` folder to replace the placeholders above)*
+| **Timer Active** | Face 1/2/3/4 pointing up. Sets 5, 15, 25, or 45 mins. <br>🟢 **LED:** Green | *![Timer UI](assets/verde.png)* |
+| **Warning (30s left)**| Timer is almost up. <br>🟡 **LED:** Blinking Yellow | *![Warning UI](assets/giallo.png)* |
+| **Time's Up** | Countdown reaches `00:00`. <br>🔴 **LED:** Blinking Red | *![Finished UI](assets/rosso.png)* |
+| **Pause** | Screen facing directly UP (Z-axis). <br>🔵 **LED:** Blue | *![Pause UI](assets/blu.png)* |
+| **Idle / Setup** | Cube hasn't been flipped yet. <br>⚫ **LED:** Off | *![Idle UI](assets/spento.png)* |
 
 
 ---
