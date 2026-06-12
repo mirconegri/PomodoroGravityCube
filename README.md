@@ -1,11 +1,5 @@
 # 🍅 Pomodoro Gravity Cube
 
-<div align="center">
-  <img src="assets/cube.png" alt="Pomodoro Gravity Cube" width="100%">
-</div>
-
-<br>
-
 [![Language](https://img.shields.io/badge/Language-C++%20%2F%20Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/) [![Hardware](https://img.shields.io/badge/Hardware-Arduino-333333?style=for-the-badge)](https://store.arduino.cc/) [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
 
 A fully custom, 100% Arduino-based physical Pomodoro timer controlled entirely by gravity. 
