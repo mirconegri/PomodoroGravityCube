@@ -8,17 +8,17 @@ A fully custom, Arduino-based physical Pomodoro timer with no buttons: the devic
 
 ## Table of Contents
 
-- [Preview & Design](#preview--design)
-- [Live Simulation](#live-simulation)
+- [Preview](#preview)
 - [Features](#features)
 - [Tech Stack / Hardware](#tech-stack--hardware)
+- [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Configuration / Environment](#configuration--environment)
+- [Configuration and Environment](#configuration-and-environment)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Preview & Design
+## Preview
 
 | 3D Model Overview | Panels & Exploded View |
 | :---: | :---: |
@@ -36,7 +36,7 @@ A fully custom, Arduino-based physical Pomodoro timer with no buttons: the devic
 | **🎲⬇️ Pause** | Screen facing directly UP (Z-axis). <br>🔵 **LED:** Blue | *![Pause UI](assets/blu.png)* |
 | **🎲 Idle / Setup** | Cube hasn't been flipped yet. <br>⚫ **LED:** Off | *![Idle UI](assets/spento.png)* |
 
-## Live Simulation
+### Live Simulation
 
 Don't have the hardware yet? Test the exact code and logic directly in your browser via Wokwi:
 
@@ -67,6 +67,26 @@ Don't have the hardware yet? Test the exact code and logic directly in your brow
 - Power Management: TP4056 LiPo Battery Charging Module
 - Power Source: 3.7V LiPo Battery
 - Misc: Slide switch, wiring, custom 3D-printed / wooden enclosure
+
+## Project Structure
+
+```
+Cubo-Timer-Pomodoro/
+├── README.md
+├── LICENSE
+├── src/
+│   └── cubo_pomodoro.ino   # Firmware — orientation reading, timer logic, OLED/LED output
+└── assets/
+    ├── back.png
+    ├── blu.png
+    ├── front.png
+    ├── giallo.png
+    ├── rosso.png
+    ├── side.png
+    ├── spento.png
+    ├── up.png
+    └── verde.png
+```
 
 ## Getting Started
 
@@ -106,7 +126,7 @@ Once powered on and idle, place the cube on a flat surface and flip it onto one 
 - Flip back to the previously active timer face to resume, or to a **different** face to start a fresh countdown
 - When the countdown reaches zero, the display shows "FINITO!" and the LED blinks red until the cube is flipped again
 
-## Configuration / Environment
+## Configuration and Environment
 
 This project has no software environment variables or `.env` file. All configuration is done in the firmware itself (`src/cubo_pomodoro.ino`):
 
@@ -126,6 +146,10 @@ Contributions are welcome — whether firmware improvements, enclosure redesigns
 4. Open a Pull Request
 
 Found a bug or have an idea? Open an [Issue](https://github.com/mirconegri/PomodoroGravityCube/issues).
+
+### 👤 Author & Connect
+
+**Mirco Negri** — *Computer Science Student @ UniTrento*
 
 ## License
 
